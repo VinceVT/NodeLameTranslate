@@ -9,7 +9,7 @@ const bodyParser = require('body-parser');
 const crypt = require('bcrypt');
 //reads files
 const fs = require('fs');
-//for .env ignore files to hide data for security
+//for .env ignore files to hide data for security, .env is gitignored
 require('dotenv').config() 
 
 const saltRounds = 10
